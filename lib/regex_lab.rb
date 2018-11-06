@@ -7,7 +7,7 @@ if word.match(/\A[aeiou]/i) == nil
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-text.scan(/\w+un+ing/)
+text.scan(/un+\w\w+ing/)
 end
 
 def words_five_letters_long(text)
