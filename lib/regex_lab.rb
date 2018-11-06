@@ -8,7 +8,9 @@ end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-if text.match(/\w+)
+if text.match(/\w+un+ing)
+  return
+  
 end
 
 def words_five_letters_long(text)
